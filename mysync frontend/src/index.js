@@ -11,7 +11,7 @@ import { AuthProvider } from "./AuthContext/AuthContext";
 
 //Stripe configuration
 const stripePromise = loadStripe(
-  "pk_test_51LVGZED8n0ExDwA4ocq21Al6QdhH7mgu9wk26r0mOCAB1n4dYb8CwepGCH6BvQvggiyLogZjxQsSHNHrxPUoaha200iDWOiYVW"
+  "sk_test_51Oh4VISEyleiq1GM65URZJ2q2MxoGsoJmd3VQxB3JGmZhv9bgWe13MNnMjx5o4ZqghfYhzfshPzkcSErEg91RE0500NgbVBthS"
 );
 const options = {
   mode: "payment",
